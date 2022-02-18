@@ -1,0 +1,131 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  height: fit-content;
+}
+.div-col-1-row-1 {
+  background-color: #00b081;
+}
+.cart {
+  margin: 60px 400px 60px 400px;
+  display: flex;
+}
+.cart-images-1 img {
+  height: 170px;
+  width: 100px;
+}
+.deliver-here-1,
+.deliver-here-2,
+.deliver-here-3,
+.deliver-here-4 {
+  background-color: steelblue;
+  width: fit-content;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 3px 4px 5px silver;
+  margin-left: 70%;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.full-address-1,
+.full-address-2,
+.full-address-3,
+.full-address-4 {
+  display: flex;
+}
+.full-address-1,
+.full-address-2,
+.full-address-3,
+.full-address-4 {
+  cursor: pointer;
+}
+.customer-address {
+  margin-left: 30px;
+}
+
+.deliver-here-1 {
+  position: absolute;
+  top: 460px;
+  bottom: 0;
+  left: 140px;
+  right: 0;
+  height: 50px;
+  width: 250px;
+  opacity: 0;
+  border-radius: 10px;
+  background-color: #008cba;
+}
+.full-address-1:hover .deliver-here-1 {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.deliver-here-2 {
+  position: absolute;
+  top: 730px;
+  bottom: 0;
+  left: 140px;
+  right: 0;
+  height: 50px;
+  width: 250px;
+  opacity: 0;
+  border-radius: 10px;
+  background-color: #008cba;
+}
+.full-address-2:hover .deliver-here-2 {
+  opacity: 1;
+  transition: 0.5s;
+}
+.deliver-here-3 {
+  position: absolute;
+  top: 980px;
+  bottom: 0;
+  left: 140px;
+  right: 0;
+  height: 50px;
+  width: 250px;
+  opacity: 0;
+  border-radius: 10px;
+  background-color: #008cba;
+}
+.full-address-3:hover .deliver-here-3 {
+  opacity: 1;
+  transition: 0.5s;
+}
+.deliver-here-4 {
+  position: absolute;
+  top: 1250px;
+  bottom: 0;
+  left: 140px;
+  right: 0;
+  height: 50px;
+  width: 250px;
+  opacity: 0;
+  border-radius: 10px;
+  background-color: #008cba;
+}
+.full-address-4:hover .deliver-here-4 {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+
+.deliver-here-1 h1,
+.deliver-here-2 h1,
+.deliver-here-3 h1,
+.deliver-here-4 h1 {
+  text-align: center;
+}
+
+.footer-col-3 {
+  position: sticky;
+  background-color: #555;
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+}
